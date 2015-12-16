@@ -7,6 +7,6 @@ Top 5 significant snps.
   4. CHR 8  rs2517355
   5. CHR 20 rs2423920
 
-https://github.com/burdettadam/ADHD-GWAS/raw/master/manhattanTop57.pdf
+https://github.com/burdettadam/ADHD-GWAS/blob/master/manhattanTop57.pdf
 
-https://github.com/burdettadam/ADHD-GWAS/raw/master/qq%20plink%20assoc.pdf
+https://github.com/burdettadam/ADHD-GWAS/blob/master/qq%20plink%20assoc.pdf
