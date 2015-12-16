@@ -1,0 +1,49 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ adhd-parsed-geno.log ]
+Analysis started: Fri Dec 11 10:52:42 2015
+
+Options in effect:
+	--noweb
+	--allow-no-sex
+	--geno 1
+	--make-bed
+	--file adhd-parsed
+	--out adhd-parsed-geno
+
+286603 (of 286603) markers to be included from [ adhd-parsed.map ]
+Warning, found 46 individuals with ambiguous sex codes
+Writing list of these individuals to [ adhd-parsed-geno.nosex ]
+46 individuals read from [ adhd-parsed.ped ] 
+46 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+23 cases, 23 controls and 0 missing
+0 males, 0 females, and 46 of unspecified sex
+Before frequency and genotyping pruning, there are 286603 SNPs
+46 founders and 0 non-founders found
+39278 SNPs with no founder genotypes observed
+Warning, MAF set to 0 for these SNPs (see --nonfounders)
+Writing list of these SNPs to [ adhd-parsed-geno.nof ]
+Total genotyping rate in remaining individuals is nan
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 286603 SNPs
+After filtering, 23 cases, 23 controls and 0 missing
+After filtering, 0 males, 0 females, and 46 of unspecified sex
+Writing pedigree information to [ adhd-parsed-geno.fam ] 
+Writing map (extended format) information to [ adhd-parsed-geno.bim ] 
+Writing genotype bitfile to [ adhd-parsed-geno.bed ] 
+Using (default) SNP-major mode
+
+Analysis finished: Fri Dec 11 10:53:04 2015
+

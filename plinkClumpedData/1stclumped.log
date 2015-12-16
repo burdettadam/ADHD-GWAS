@@ -1,0 +1,63 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found... OK, v1.07 is current
+
++++ PLINK 1.9 is now available! See above website for details +++ 
+
+Writing this text to log file [ 1stclumped.log ]
+Analysis started: Sun Dec 13 16:15:34 2015
+
+Options in effect:
+	--bfile adhd-parsed-geno
+	--clump plinkassoc-assoc.assoc
+	--out 1stclumped
+	--clump-verbose
+
+Reading map (extended format) from [ adhd-parsed-geno.bim ] 
+286603 markers to be included from [ adhd-parsed-geno.bim ]
+Reading pedigree information from [ adhd-parsed-geno.fam ] 
+46 individuals read from [ adhd-parsed-geno.fam ] 
+0 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+0 cases, 0 controls and 46 missing
+0 males, 0 females, and 46 of unspecified sex
+Warning, found 46 individuals with ambiguous sex codes
+These individuals will be set to missing ( or use --allow-no-sex )
+Writing list of these individuals to [ 1stclumped.nosex ]
+Reading genotype bitfile from [ adhd-parsed-geno.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
+Before frequency and genotyping pruning, there are 286603 SNPs
+46 founders and 0 non-founders found
+39278 SNPs with no founder genotypes observed
+Warning, MAF set to 0 for these SNPs (see --nonfounders)
+Writing list of these SNPs to [ 1stclumped.nof ]
+Total genotyping rate in remaining individuals is nan
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 286603 SNPs
+After filtering, 0 cases, 0 controls and 46 missing
+After filtering, 0 males, 0 females, and 46 of unspecified sex
+
+Parameters for --clump:
+          p-value threshold for index SNPs = 0.0001
+      Physical (kb) threshold for clumping = 250
+     LD (r-squared) threshold for clumping = 0.5
+        p-value threshold for clumped SNPs = 0.01
+
+Reading results for clumping from [ plinkassoc-assoc.assoc ]
+Extracting fields SNP and P
+Indexing on all files
+Writing clumped results file to [ 1stclumped.clumped ]
+
+Analysis finished: Sun Dec 13 16:15:41 2015
+
